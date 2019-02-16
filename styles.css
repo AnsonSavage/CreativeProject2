@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  --main-red: rgb(235, 111, 88);
+  --main-grey: rgb(36, 36, 36);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--main-grey);
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Quicksand', sans-serif;
+  color: var(--main-red);
+  text-align: center;
+  margin: 2%;
+}
+
+p {
+  font-style: italic;
+  font-size: 1.2em;
+  color: rgb(228, 171, 0);
+}
+
+strong {
+  font-size: 1.5em;
+  color: rgb(228, 171, 0);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 4% auto 0% auto;
+  width: 20%;
+  /*border: 2px solid rgba(255, 255, 255, 0.55);*/
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#submitButton {
+  margin: 1% auto;
+  background-color: var(--main-red);
+  font-size: 1.5em;
+  padding: 1.5% 4%;
+  color: var(--main-grey);
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+}
+
+#imageInput {
+  background-color: rgba(238, 247, 236, 0.8);
+  color: rgb(70, 70, 70);
+  border: none;
+  padding: 5%;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 7px;
+}
+
+hr {
+  width: 80%;
+  margin: 1% auto;
+}
+
+.descriptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--main-red);
+  color: white;
+  text-align: center;
+  padding: 1%;
+  box-shadow: 0px -1px 20px 1px rgba(18, 18, 18, 0.68);
+}
+
+a {
+  color: rgb(36, 36, 36);
+  text-decoration: none;
+  font-weight: bold;
+}
