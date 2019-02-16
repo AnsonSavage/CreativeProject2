@@ -18,10 +18,26 @@ h1 {
   margin: 2%;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+
 p {
+  margin: auto;
   font-style: italic;
   font-size: 1.2em;
-  color: rgb(228, 171, 0);
+  color: white;
+  flex-basis: 100%;
+}
+
+.whiteLink {
+  margin: auto;
+  font-style: italic;
+  font-size: 1.2em;
+  color: white;
+  flex-basis: 100%;
 }
 
 strong {
@@ -33,17 +49,28 @@ form {
   display: flex;
   flex-direction: column;
   margin: 4% auto 0% auto;
-  width: 20%;
+  width: 30%;
   /*border: 2px solid rgba(255, 255, 255, 0.55);*/
   border-radius: 10px;
   padding: 10px;
+}
+
+button {
+  margin: 1% auto;
+  background-color: var(--main-red);
+  font-size: 1em;
+  padding: 1% 2%;
+  color: var(--main-grey);
+  text-align: center;
+  border: none;
+  border-radius: 7px;
 }
 
 #submitButton {
   margin: 1% auto;
   background-color: var(--main-red);
   font-size: 1.5em;
-  padding: 1.5% 4%;
+  padding: 4% 12%;
   color: var(--main-grey);
   text-align: center;
   border: none;
@@ -61,14 +88,9 @@ form {
 }
 
 hr {
-  width: 80%;
+  width: 70%;
+  border-color: var(--main-red);
   margin: 1% auto;
-}
-
-.descriptions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer {
@@ -87,4 +109,35 @@ a {
   color: rgb(36, 36, 36);
   text-decoration: none;
   font-weight: bold;
+}
+
+#imageScroll {
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.imageGroup {
+  display: flex;
+  /*flex-direction: column;*/
+  width: 80%;
+  margin: auto;
+}
+
+.imageHolder {
+  flex: 1;
+}
+
+.textInformation {
+  padding-left: 2%;
+  margin: auto;
+  flex: 5;
+  display: flex;
+  justify-content: space-around;
+  /*set the initial length*/
+}
+
+img {
+  margin: 2%;
+  border-radius: 5px;
+  box-shadow: 0px -1px 20px 1px rgba(18, 18, 18, 0.68);
 }
